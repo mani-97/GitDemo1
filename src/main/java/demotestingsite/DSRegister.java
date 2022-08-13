@@ -82,6 +82,7 @@ public static void registerPage() throws IOException
 }
 @AfterTest
 public static void closeBrowser() {
+	System.out.println(" it using for github purpose");
 	extentReports.flush();
 	driver.quit();
 }
